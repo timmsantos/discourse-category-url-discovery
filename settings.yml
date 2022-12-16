@@ -1,3 +1,8 @@
+title:
+  type: string
+  default: 'User Groups and Events by Region'
+  description: 'Title for the URL Discovery section'
+
 category:
   type: list
   default: 'user-groups'

@@ -3,12 +3,15 @@
         let sections = JSON.parse(settings.sections);
         let subSections = JSON.parse(settings.sub-sections);
     }
-
-    api.modifyClass("component:discovery-above", {
+    api.modifyClass("component:discovery-categories", {
         didInsertElement: function() {
             this._super();
-            console.log(this);
+            console.log("here it is: " + Discourse);
         }
 
     });
+</script>
+
+<script type="text/x-handlebars" data-template-name="/connectors/above-discovery-categories/foobar2">
+    <div style="height: 200px; width: 200px;background: red"></div>
 </script>
