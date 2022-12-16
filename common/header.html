@@ -1,5 +1,4 @@
 <script type="text/discourse-plugin" version="0.8">
-    console.log(this);
     function parseSettings() {
         let sections = settings.sections;
         let subSections = settings.sub-sections;
@@ -9,6 +8,7 @@
     api.modifyClass("component:discovery-categories", {
         didInsertElement: function() {
             this._super();
+            console.log(this);
             parseSettings();
         }
 
