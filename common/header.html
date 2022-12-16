@@ -8,7 +8,7 @@
     api.modifyClass("component:discovery-categories", {
         didInsertElement: function() {
             this._super();
-            console.log(this);
+            console.log(this.topicTrackingState);
             parseSettings();
         }
 
