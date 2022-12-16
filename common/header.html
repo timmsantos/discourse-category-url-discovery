@@ -1,7 +1,7 @@
 <script type="text/discourse-plugin" version="0.8">
     function parseSettings() {
-        let sections = JSON.parse(settings.sections);
-        let subSections = JSON.parse(settings.sub-sections);
+        let sections = settings.sections;
+        let subSections = settings.sub-sections;
         console.log("sections: " + sections);
         console.log("subSections: " + subSections);
     }
