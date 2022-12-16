@@ -1,4 +1,5 @@
 <script type="text/discourse-plugin" version="0.8">
+    console.log(this);
     function parseSettings() {
         let sections = settings.sections;
         let subSections = settings.sub-sections;
@@ -9,7 +10,6 @@
         didInsertElement: function() {
             this._super();
             parseSettings();
-            console.log("here it is: " + Discourse);
         }
 
     });
