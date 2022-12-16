@@ -2,10 +2,13 @@
     function parseSettings() {
         let sections = JSON.parse(settings.sections);
         let subSections = JSON.parse(settings.sub-sections);
+        console.log("sections: " + sections);
+        console.log("subSections: " + subSections);
     }
     api.modifyClass("component:discovery-categories", {
         didInsertElement: function() {
             this._super();
+            parseSettings();
             console.log("here it is: " + Discourse);
         }
 
