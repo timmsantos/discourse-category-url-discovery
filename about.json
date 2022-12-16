@@ -1,0 +1,6 @@
+{
+    "name": "Category URL Discovery",
+    "about_url": "https://github.com/timmsantos/discourse-category-url-discovery",
+    "license_url": "https://github.com/timmsantos/discourse-category-url-discovery/blob/main/LICENSE",
+    "component": true
+}

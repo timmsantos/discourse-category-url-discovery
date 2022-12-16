@@ -1,0 +1,14 @@
+category:
+  type: list
+  default: 'user-groups'
+  description: 'Categories where this setting is enabled'
+
+sections:
+  type: list
+  default: 'apac'
+  description: 'Top level sections'
+
+sub-sections:
+  type: list
+  default: 'apac,home,domain.com/home'
+  description: 'List your buttons as section (declared above), name of the URL, and the URL.'
